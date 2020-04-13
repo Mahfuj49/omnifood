@@ -15,12 +15,14 @@ Orange color #e67e22
 }
 
 
-html {
+html,
+body {
     color: #555555;
     font-family: 'Lato' , 'Arial', sans-serif;
     font-size: 20px;
     font-weight: 350;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 
@@ -108,7 +110,7 @@ h2:after {
 }
 
 
-.box p {
+.f-box p {
     line-height: 145%;
 }
 
